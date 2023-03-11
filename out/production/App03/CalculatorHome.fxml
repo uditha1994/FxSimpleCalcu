@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="257.0" prefWidth="221.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorHomeController">
+   <children>
+      <TextField id="val1" fx:id="txtVal1" layoutX="23.0" layoutY="66.0" />
+      <TextField id="val2" fx:id="txtVal2" layoutX="23.0" layoutY="103.0" />
+      <Button fx:id="btnAdd" layoutX="23.0" layoutY="142.0" mnemonicParsing="false" onAction="#calcAdition" text="+">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnSub" layoutX="65.0" layoutY="142.0" mnemonicParsing="false" onAction="#calcSubtraction" prefHeight="33.0" prefWidth="35.0" text="-">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnDiv" layoutX="112.0" layoutY="142.0" mnemonicParsing="false" onAction="#calcDivide" prefHeight="33.0" prefWidth="41.0" text="/">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnMul" layoutX="162.0" layoutY="142.0" mnemonicParsing="false" onAction="#calcMultiplication" prefHeight="25.0" prefWidth="29.0" text="*">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Button>
+      <TextField id="answer" fx:id="txtAnswer" layoutX="27.0" layoutY="211.0" />
+      <Text layoutX="27.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Answer" />
+      <Text layoutX="35.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FX Calculator">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
